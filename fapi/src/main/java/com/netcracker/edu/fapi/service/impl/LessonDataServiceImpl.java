@@ -36,7 +36,7 @@ public class LessonDataServiceImpl implements LessonDataService {
 
         if (lessonViewModels != null) {
             for (LessonViewModel lessonViewModel : lessonViewModels) {
-                if (lessonViewModel.getLessonId() == id)
+                if (lessonViewModel.getId() == id)
                     return lessonViewModel;
             }
         }
